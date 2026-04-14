@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="nav-calculator">
+            <logo class="logo">
+                <img src="c:\Users\RAM\Downloads\—Pngtree—lion head face logo silhouette_15317165.png" alt="Calculator Logo" height="50px" width="50px">
+            </div>
+        <div class="calculator-container">
+        <div class="calculator">
+            <input type="text" class="display" id="display" readonly>
+            <div class="buttons">
+                <button class="btn" onclick="appendToDisplay('7')">7</button>
+                <button class="btn" onclick="appendToDisplay('8')">8</button>
+                <button class="btn" onclick="appendToDisplay('9')">9</button>
+                <button class="btn" onclick="appendToDisplay('/')">/</button>
+                <button class="btn" onclick="appendToDisplay('4')">4</button>
+                <button class="btn" onclick="appendToDisplay('5')">5</button>
+                <button class="btn" onclick="appendToDisplay('6')">6</button>
+                <button class="btn" onclick="appendToDisplay('*')">*</button>
+                <button class="btn" onclick="appendToDisplay('1')">1</button>
+                <button class="btn" onclick="appendToDisplay('2')">2</button>
+                <button class="btn" onclick="appendToDisplay('3')">3</button>
+                <button class="btn" onclick="appendToDisplay('-')">-</button>
+                <button class="btn" onclick="appendToDisplay('0')">0</button>
+                
+                <!-- <button class="btn" onclick="appendToDisplay('.')">.</button> -->
+                <button class="btn" onclick="appendToDisplay('(')">(</button>
+                <button class="btn" onclick="appendToDisplay(')')">)</button>
+                <button class="btn" onclick="appendToDisplay('+')">+</button>
+                <button class="btn" onclick="appendToDisplay('%')">%</button>
+                <button class="btn" onclick="appendToDisplay('.')">.</button>
+                <button class="btn" onclick="calculate()" style="background-color: rgb(31, 30, 30);">=</button>
+                <button class="btn" onclick="backspace()" style="background-color: rgb(240, 139, 139);">^</button>
+                 
+            </div>
+            <button class="btnClear " onclick="clearDisplay()">C</button>
+        </div>
+        </div>
+        
+    </body>
+    </html>
+</html>
